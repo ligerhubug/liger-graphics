@@ -1,0 +1,83 @@
+.order-page{
+
+max-width:700px;
+
+margin:50px auto;
+
+padding:30px;
+
+background:#fff;
+
+border-radius:10px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+}
+
+.order-page h1{
+
+text-align:center;
+
+margin-bottom:10px;
+
+}
+
+.order-page p{
+
+text-align:center;
+
+margin-bottom:25px;
+
+color:#666;
+
+}
+
+#orderForm{
+
+display:flex;
+
+flex-direction:column;
+
+gap:18px;
+
+}
+
+#orderForm input,
+#orderForm select,
+#orderForm textarea{
+
+padding:15px;
+
+border:1px solid #ddd;
+
+border-radius:6px;
+
+font-size:16px;
+
+}
+
+#orderForm button{
+
+padding:16px;
+
+background:#0066ff;
+
+color:white;
+
+border:none;
+
+font-size:18px;
+
+cursor:pointer;
+
+border-radius:6px;
+
+transition:.3s;
+
+}
+
+#orderForm button:hover{
+
+background:#004dcc;
+
+}
